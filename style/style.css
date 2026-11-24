@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #f4f7fb; /* cor de fundo da página*/
+    color: #cadbb7;  /* cor da bolinha de listas */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;  /* espeçamento entre os elementos do menu */
+
+    background-image: url(../img/fundo-cabecalho.jpg.png);  /* Define uma imagem como plano de fundo*/
+        background-attachment: fixed;   /* Define o padrão de rolagem do plano de fundo*/
+        background-repeat: no-repeat;   /* Não deixa a imagem de fundo fique se duplicando*/
+        background-size: cover;    /* Define o tamanho da imagem na tela cheia (se ajusta ao tamanho da tela)*/
+}
+
+.cabecalho{
+    background-color: #93a267;   /* cor de fundo do menu */
+    color: #a0b0c2;    /* cor da bolinha de listas */
+    padding: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0;
+}
+
+.menu-principal{
+    display: inline-block;
+    margin-left: 45%;  /* move os elementos do menu de um lado para o outro */
+    height: 100%;
+}
+
