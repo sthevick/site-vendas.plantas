@@ -10,21 +10,25 @@ body{
     font-size: 16px;
     line-height: 1.6;  /* espeçamento entre os elementos do menu */
 
-    background-image: url(../img/fundo-cabecalho.jpg.png);  /* Define uma imagem como plano de fundo*/
-        background-attachment: fixed;   /* Define o padrão de rolagem do plano de fundo*/
-        background-repeat: no-repeat;   /* Não deixa a imagem de fundo fique se duplicando*/
-        background-size: cover;    /* Define o tamanho da imagem na tela cheia (se ajusta ao tamanho da tela)*/
+    
 }
 
 .cabecalho{
-    background-color: #93a267;   /* cor de fundo do menu */
+    background-color: #354526;   /* cor de fundo do menu */
     color: #a0b0c2;    /* cor da bolinha de listas */
     padding: 0;
 }
 
 .container{
-    width: 1024px;
-    margin: 0;
+    width: 90%;
+    margin: auto;
+    display: flex; /* ajusta onde a barra do topo fica */
+    justify-content: space-between;   /* deixa os elementos do menu na direita*/
+    align-items: center;
+}
+
+.titulo{
+    color: white;
 }
 
 .menu-principal{
@@ -33,3 +37,21 @@ body{
     height: 100%;
 }
 
+.menu-lista{
+    display: flex;  /* deixa os elementos na horizontal*/
+    gap: 25px;   /* espacamento entre os elementos em si */
+    list-style: none;
+}
+
+.menu-link{
+    color: #d5dfc3; /* cor do elemento do menu */
+    text-decoration: none;  /* tira o sublinhado */
+    background-color: #354526;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.menu-link:hover {
+    background-color: #65794b;
+    color: white;
+}
